@@ -1,0 +1,58 @@
+/*body */
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* background*/
+/*logo*/
+img {
+   width: 10%;
+   position: absolute; 
+   top:0; 
+   left:0;
+   padding-top: 5px;
+}
+
+/*header title*/
+h1 {
+   text-align: center;
+   color:black;
+   margin-top: 100px;
+}
+
+/*body headers*/
+h3 {
+   text-align: center;
+   color: black;
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+
+h4 {
+   font-size: 5px;
+   text-align: center;
+   text-justify: kashida;
+}
+
+#subscribe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px;
+}
+
+/*video*/
+
+
+/*text*/
+p {
+   text-align: center;
+}
+
+/*navigation bar*/
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}

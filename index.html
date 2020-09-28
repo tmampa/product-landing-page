@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/styles.css">
+    <title>Product Landing Page</title>
+<style>
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: rgb(26, 25, 25);
+}
+
+.flex-container > div {
+ 
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body class="background-img">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header id=header>
+  <!--  <h1>CANON R5</h1> -->
+  
+
+   <!-- <nav id="nav-bar">
+            <div>
+        <ul class="menu">
+            <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#stores">Stores</a></li>
+        </div>
+        </ul>
+    </nav>-->
+
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img id="header-img" src="images/Logo-canon-transparent-PNG.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stores">Stores</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="watch-video">
+        <h3>Learn more the CANON R5</h3>
+        <p>
+            The EOS R5 is Canon's flagship full-frame mirrorless camera in 2020. It features an all-new, Canon-developed 45MP CMOS
+            sensor with in-body image stabilization that can reduce shake by up to 8 stops. The camera uses the Dual Pixel AF II
+            system, which has 1053 AF points across the entire frame. The advanced autofocus system uses Deep Learning to track both
+            people and animals. The R5 is capable of shooting bursts at 20 fps with its electronic shutter and 12 fps with the
+            mechanical shutter, both with continuous AF.<br>
+            
+            The R5 can shoot 8K video at 30p and 24p, saved as either Raw or H.265 footage. It's also capable of capturing
+            oversampled 4K footage at up to 120p. C-Log and HDR PQ are supported.<br>
+            
+            The SLR-styled R5 has a solid build and is weather-sealed. Its OLED electronic viewfinder has 5.76 million dots and a
+            magnification of 0.76x. Its fully articulating LCD has 2.1 million dots and its touch-sensitive. The camera also
+            features dual memory card slots: one for SD, another for CFexpress. It offers dual-band Wi-Fi with support for real-time
+            FTP transfer.<br><br
+        </p>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/KxXNi1eb8JQ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+        <h4>Subscribe to our mailing list!</h4>
+
+    <section id="subscribe">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="you@host.com">
+            <input id="submit" type="submit">
+        </form>
+    </section>
+
+    <section id="stores">
+        <h4>Shop Online!</h4>
+
+    <div class="flex-container">
+        <div>
+            <a
+                href="">CANON
+            </a>
+        </div>
+
+        <div>
+            <a href="">AMAZON
+            </a>
+        </div>
+
+        <div>
+            <a href="">TAKEALOT
+            </a>
+        </div>
+    </div>
+
+    </section>
+
+
+</header>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
